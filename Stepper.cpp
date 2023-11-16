@@ -71,6 +71,7 @@ void loop()
   int valStart = digitalRead(startPin);
   int valStop = digitalRead(startPin);
   
+  //Enciende los LEDs como toca 
   if(posicion == 0){
     digitalWrite(ledCero,HIGH);
     digitalWrite(ledFin, LOW);
